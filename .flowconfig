@@ -1,0 +1,14 @@
+[ignore]
+.*/dist
+.*/coverage
+
+[include]
+
+[libs]
+
+[lints]
+
+[options]
+include_warnings=true
+
+[strict]

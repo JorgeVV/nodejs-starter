@@ -1,0 +1,18 @@
+{
+  "parser": "babel-eslint",
+  "extends": [
+    "eslint:recommended",
+    "plugin:flowtype/recommended",
+    "plugin:prettier/recommended",
+    "prettier/flowtype",
+    "plugin:jest/recommended"
+  ],
+  "plugins": ["flowtype", "flowtype-errors", "jest"],
+  "env": {
+    "jest": true,
+    "jest/globals": true
+  },
+  "rules": {
+    "flowtype-errors/show-errors": "error"
+  }
+}
